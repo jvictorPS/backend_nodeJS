@@ -1,0 +1,21 @@
+Os verbos do HTTP ajudam a identificar o tipo de ação que estamos querendo realizar numa determinada URL
+
+Principais verbos:
+
+GET - utilizado para solicitar dados
+POST - utilizado para cadastrar dados
+PUT/PATCH - utilizado para atualizar algum dado
+DELETE - utilizado para deletar algum dado
+
+Status de requisição HTTP
+
+Familia 100 - resposta informativa ao cliente
+familia 200 - requisição processada com sucesso 
+familia 300 - mensagem de redirecionamento
+familia 400 - apresentam mensagem de erro que ocorre no cliente
+    - 400: sintaxe invalida
+    - 401: cliente precisa se autenticar
+    - 403: cliente, mesmo autenticado, não tem acesso ao recurso
+    - 404: não localizado
+    etc
+familia 500: erros no servidor
